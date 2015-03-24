@@ -253,3 +253,16 @@ footer {
     color:#444;
   }
 }
+
+.text_center {
+    text-align: center;
+}
+
+.profile_pic {
+    border-radius: 66px;
+}
+
+.tag_line {
+    display: inline;
+    margin: 5px;
+}
