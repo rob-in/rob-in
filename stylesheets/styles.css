@@ -274,3 +274,11 @@ footer {
 .display_inline{
     display: inline;
 }
+
+.add_margin_10 {
+    margin-top: 10px;
+}
+
+.add_margin_5{
+    margin-top: 5px;
+}
