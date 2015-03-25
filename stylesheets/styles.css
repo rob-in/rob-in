@@ -266,3 +266,11 @@ footer {
     display: inline;
     margin: 5px;
 }
+
+.list_style {
+    list-style: disc outside;
+}
+
+.display_inline{
+    display: inline;
+}
