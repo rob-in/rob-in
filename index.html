@@ -17,8 +17,10 @@
   <body>
     <div class="wrapper">
       <header class="text_center">
-          <img class="profile_pic" src="images/rob-in_120x120.png">
-          <h1>rob-in</h1>
+          <div onclick="showHome()">
+              <img class="profile_pic" src="images/rob-in_120x120.png">
+              <h1>rob-in</h1>
+          </div>
           <i class="fa fa-quote-left"></i>
           <h3 class="tag_line">UI Developer, surfing the front-end wave.</h3>
           <i class="fa fa-quote-right"></i>
@@ -30,7 +32,9 @@
               <div class="fa-stack fa-lg">
                   <i class="fa fa-phone fa-stack-1x"></i>
               </div>
-              <phone>+91-8390900892</phone>
+              <a href="tel:+918390900892">
+                  <phone>+91-8390900892</phone>
+              </a>
           </div>
           <div>
               <div class="fa-stack fa-lg">
@@ -60,14 +64,13 @@
                  target="_blank" title="Download resume">
                   <i class="fa fa-download fa-stack-1x"></i>
               </a>
-              <a class="fa-stack fa-lg" href="Blogs/Blogs.html"
-                 target="_blank" title="Articles">
-                  <i class="fa fa-list-ul fa-stack-1x"></i>
-              </a>
+              <!--<a class="fa-stack fa-lg" onclick="showArticleList(true)" title="Articles">-->
+                  <!--<i class="fa fa-list-ul fa-stack-1x"></i>-->
+              <!--</a>-->
           </div>
 
       </header>
-      <section>
+      <section id="home" class="visible_element">
           <p>Skilled Web UI Developer, adept at reducing the amount of work required of end users to navigate software.
               This means experience at developing interfaces that create the best liaisons between user and application through functions that minimize reaching a goal.
           </p>
@@ -236,10 +239,17 @@
           </ul>
 
         </section>
+
+        <section id="articleList" class="hidden_element">
+          <h3>
+              <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+              Articles
+          </h3>
+        </section>
       <footer>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-
+    <script src="javascripts/main.js"></script>
   </body>
 </html>

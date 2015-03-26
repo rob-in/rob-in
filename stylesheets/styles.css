@@ -282,3 +282,11 @@ footer {
 .add_margin_5{
     margin-top: 5px;
 }
+
+.hidden_element{
+    display: none;
+}
+
+.visible_element{
+    display: block;
+}
